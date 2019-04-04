@@ -1,5 +1,3 @@
-var debug = require('debug')('nightmare:preCookies');
-
 module.exports = exports = function(Nightmare) {
   Nightmare.action(
     'preCookies',
